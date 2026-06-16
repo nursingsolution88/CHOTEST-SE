@@ -16,48 +16,310 @@ button { padding: 10px 15px; margin-top: 20px; }
 
 <form id="quiz">
 
-<div class="q">
-1. Drug of choice in anaphylaxis?<br>
-<input type="radio" name="q1" value="0"> Atropine<br>
-<input type="radio" name="q1" value="0"> Hydrocortisone<br>
-<input type="radio" name="q1" value="1"> Epinephrine<br>
-<input type="radio" name="q1" value="0"> Dopamine
-</div>
+<div class="q">1. Drug of choice in anaphylaxis?<br>
+<input type="radio" name="q1" value="0">Atropine<br>
+<input type="radio" name="q1" value="0">Hydrocortisone<br>
+<input type="radio" name="q1" value="1">Epinephrine<br>
+<input type="radio" name="q1" value="0">Dopamine</div>
 
-<div class="q">
-2. Normal BP of adult?<br>
-<input type="radio" name="q2" value="1"> 120/80<br>
-<input type="radio" name="q2" value="0"> 140/90<br>
-<input type="radio" name="q2" value="0"> 160/100<br>
-<input type="radio" name="q2" value="0"> 100/60
-</div>
+<div class="q">2. Normal BP of adult?<br>
+<input type="radio" name="q2" value="1">120/80<br>
+<input type="radio" name="q2" value="0">140/90<br>
+<input type="radio" name="q2" value="0">160/100<br>
+<input type="radio" name="q2" value="0">100/60</div>
 
-<div class="q">
-3. Malaria vector?<br>
-<input type="radio" name="q3" value="1"> Anopheles<br>
-<input type="radio" name="q3" value="0"> Aedes<br>
-<input type="radio" name="q3" value="0"> Housefly<br>
-<input type="radio" name="q3" value="0"> Sandfly
-</div>
+<div class="q">3. Malaria vector?<br>
+<input type="radio" name="q3" value="1">Anopheles<br>
+<input type="radio" name="q3" value="0">Aedes<br>
+<input type="radio" name="q3" value="0">Housefly<br>
+<input type="radio" name="q3" value="0">Sandfly</div>
 
-<div class="q">
-4. Vitamin A deficiency causes?<br>
-<input type="radio" name="q4" value="1"> Night blindness<br>
-<input type="radio" name="q4" value="0"> Rickets<br>
-<input type="radio" name="q4" value="0"> Scurvy<br>
-<input type="radio" name="q4" value="0"> Beriberi
-</div>
+<div class="q">4. Vitamin A deficiency causes?<br>
+<input type="radio" name="q4" value="1">Night blindness<br>
+<input type="radio" name="q4" value="0">Rickets<br>
+<input type="radio" name="q4" value="0">Scurvy<br>
+<input type="radio" name="q4" value="0">Beriberi</div>
 
-<div class="q">
-5. ORS is used for?<br>
-<input type="radio" name="q5" value="1"> Diarrhea<br>
-<input type="radio" name="q5" value="0"> Fever<br>
-<input type="radio" name="q5" value="0"> Cough<br>
-<input type="radio" name="q5" value="0"> Malaria
-</div>
+<div class="q">5. ORS is used for?<br>
+<input type="radio" name="q5" value="1">Diarrhea<br>
+<input type="radio" name="q5" value="0">Fever<br>
+<input type="radio" name="q5" value="0">Cough<br>
+<input type="radio" name="q5" value="0">Malaria</div>
 
-<!-- 6 to 50 (same pattern) -->
-<!-- मैंने short version दिया है, full 50 questions नीचे add कर सकते हो -->
+<div class="q">6. BCG vaccine prevents?<br>
+<input type="radio" name="q6" value="1">Tuberculosis<br>
+<input type="radio" name="q6" value="0">Polio<br>
+<input type="radio" name="q6" value="0">Hepatitis<br>
+<input type="radio" name="q6" value="0">Measles</div>
+
+<div class="q">7. Dengue vector?<br>
+<input type="radio" name="q7" value="1">Aedes mosquito<br>
+<input type="radio" name="q7" value="0">Anopheles<br>
+<input type="radio" name="q7" value="0">Housefly<br>
+<input type="radio" name="q7" value="0">Sandfly</div>
+
+<div class="q">8. First aid in snake bite?<br>
+<input type="radio" name="q8" value="1">Immobilize limb<br>
+<input type="radio" name="q8" value="0">Cut wound<br>
+<input type="radio" name="q8" value="0">Suck poison<br>
+<input type="radio" name="q8" value="0">Ice massage</div>
+
+<div class="q">9. Pulse rate normal adult?<br>
+<input type="radio" name="q9" value="1">60–100/min<br>
+<input type="radio" name="q9" value="0">40–60/min<br>
+<input type="radio" name="q9" value="0">100–140/min<br>
+<input type="radio" name="q9" value="0">140–160/min</div>
+
+<div class="q">10. Rabies incubation period?<br>
+<input type="radio" name="q10" value="1">1–3 months<br>
+<input type="radio" name="q10" value="0">1 day<br>
+<input type="radio" name="q10" value="0">1 week<br>
+<input type="radio" name="q10" value="0">1 year</div>
+
+<div class="q">11. Vitamin C deficiency causes?<br>
+<input type="radio" name="q11" value="1">Scurvy<br>
+<input type="radio" name="q11" value="0">Rickets<br>
+<input type="radio" name="q11" value="0">Beriberi<br>
+<input type="radio" name="q11" value="0">Night blindness</div>
+
+<div class="q">12. Goiter is caused by deficiency of?<br>
+<input type="radio" name="q12" value="1">Iodine<br>
+<input type="radio" name="q12" value="0">Iron<br>
+<input type="radio" name="q12" value="0">Calcium<br>
+<input type="radio" name="q12" value="0">Vitamin D</div>
+
+<div class="q">13. BCG vaccine is given for?<br>
+<input type="radio" name="q13" value="1">TB<br>
+<input type="radio" name="q13" value="0">Malaria<br>
+<input type="radio" name="q13" value="0">Dengue<br>
+<input type="radio" name="q13" value="0">Typhoid</div>
+
+<div class="q">14. Hemoglobin normal range in female?<br>
+<input type="radio" name="q14" value="1">12–16 g/dl<br>
+<input type="radio" name="q14" value="0">8–10 g/dl<br>
+<input type="radio" name="q14" value="0">18–20 g/dl<br>
+<input type="radio" name="q14" value="0">6–8 g/dl</div>
+
+<div class="q">15. First sign of dehydration?<br>
+<input type="radio" name="q15" value="1">Thirst<br>
+<input type="radio" name="q15" value="0">Fever<br>
+<input type="radio" name="q15" value="0">Cough<br>
+<input type="radio" name="q15" value="0">Rash</div>
+
+<div class="q">16. HIV spreads through?<br>
+<input type="radio" name="q16" value="1">Blood<br>
+<input type="radio" name="q16" value="0">Air<br>
+<input type="radio" name="q16" value="0">Water<br>
+<input type="radio" name="q16" value="0">Food</div>
+
+<div class="q">17. Tuberculosis affects mainly?<br>
+<input type="radio" name="q17" value="1">Lungs<br>
+<input type="radio" name="q17" value="0">Kidney<br>
+<input type="radio" name="q17" value="0">Liver<br>
+<input type="radio" name="q17" value="0">Heart</div>
+
+<div class="q">18. Normal temperature of body?<br>
+<input type="radio" name="q18" value="1">98.6°F<br>
+<input type="radio" name="q18" value="0">100°F<br>
+<input type="radio" name="q18" value="0">96°F<br>
+<input type="radio" name="q18" value="0">102°F</div>
+
+<div class="q">19. Pulse oximeter measures?<br>
+<input type="radio" name="q19" value="1">Oxygen saturation<br>
+<input type="radio" name="q19" value="0">Blood sugar<br>
+<input type="radio" name="q19" value="0">BP<br>
+<input type="radio" name="q19" value="0">Pulse only</div>
+
+<div class="q">20. Diabetes mellitus affects?<br>
+<input type="radio" name="q20" value="1">Blood sugar<br>
+<input type="radio" name="q20" value="0">Calcium<br>
+<input type="radio" name="q20" value="0">Oxygen<br>
+<input type="radio" name="q20" value="0">Hemoglobin</div>
+
+<!-- CONTINUE SAME PATTERN -->
+
+<div class="q">21. Pulse normal range?<br>
+<input type="radio" name="q21" value="1">60–100<br>
+<input type="radio" name="q21" value="0">40–60<br>
+<input type="radio" name="q21" value="0">100–140<br>
+<input type="radio" name="q21" value="0">140–160</div>
+
+<div class="q">22. Malnutrition cause?<br>
+<input type="radio" name="q22" value="1">Protein deficiency<br>
+<input type="radio" name="q22" value="0">Vitamin C excess<br>
+<input type="radio" name="q22" value="0">Calcium excess<br>
+<input type="radio" name="q22" value="0">Iron excess</div>
+
+<div class="q">23. Typhoid spreads through?<br>
+<input type="radio" name="q23" value="1">Contaminated water<br>
+<input type="radio" name="q23" value="0">Air<br>
+<input type="radio" name="q23" value="0">Mosquito<br>
+<input type="radio" name="q23" value="0">Touch</div>
+
+<div class="q">24. First aid CPR ratio?<br>
+<input type="radio" name="q24" value="1">30:2<br>
+<input type="radio" name="q24" value="0">15:2<br>
+<input type="radio" name="q24" value="0">10:1<br>
+<input type="radio" name="q24" value="0">5:1</div>
+
+<div class="q">25. Iron deficiency causes?<br>
+<input type="radio" name="q25" value="1">Anemia<br>
+<input type="radio" name="q25" value="0">Diabetes<br>
+<input type="radio" name="q25" value="0">Asthma<br>
+<input type="radio" name="q25" value="0">Cancer</div>
+
+<!-- 26 to 50 same pattern -->
+<!-- (FULL CONTINUATION READY STRUCTURE) -->
+
+<div class="q">26. Handwashing minimum time?<br>
+<input type="radio" name="q26" value="1">20 sec<br>
+<input type="radio" name="q26" value="0">5 sec<br>
+<input type="radio" name="q26" value="0">10 sec<br>
+<input type="radio" name="q26" value="0">1 min</div>
+
+<div class="q">27. Vaccine storage temperature?<br>
+<input type="radio" name="q27" value="1">2–8°C<br>
+<input type="radio" name="q27" value="0">0–2°C<br>
+<input type="radio" name="q27" value="0">10–15°C<br>
+<input type="radio" name="q27" value="0">20–25°C</div>
+
+<div class="q">28. Most common disease in India?<br>
+<input type="radio" name="q28" value="1">TB<br>
+<input type="radio" name="q28" value="0">Cancer<br>
+<input type="radio" name="q28" value="0">Diabetes<br>
+<input type="radio" name="q28" value="0">Asthma</div>
+
+<div class="q">29. Mother vaccine during pregnancy?<br>
+<input type="radio" name="q29" value="1">TT<br>
+<input type="radio" name="q29" value="0">BCG<br>
+<input type="radio" name="q29" value="0">OPV<br>
+<input type="radio" name="q29" value="0">MMR</div>
+
+<div class="q">30. Dengue causes?<br>
+<input type="radio" name="q30" value="1">Viral fever<br>
+<input type="radio" name="q30" value="0">Bacterial infection<br>
+<input type="radio" name="q30" value="0">Fungal infection<br>
+<input type="radio" name="q30" value="0">Parasitic</div>
+
+<div class="q">31. Blood pressure unit?<br>
+<input type="radio" name="q31" value="1">mmHg<br>
+<input type="radio" name="q31" value="0">mg<br>
+<input type="radio" name="q31" value="0">kg<br>
+<input type="radio" name="q31" value="0">cm</div>
+
+<div class="q">32. Heart pump function?<br>
+<input type="radio" name="q32" value="1">Blood circulation<br>
+<input type="radio" name="q32" value="0">Digestion<br>
+<input type="radio" name="q32" value="0">Respiration<br>
+<input type="radio" name="q32" value="0">Excretion</div>
+
+<div class="q">33. Respiratory organ?<br>
+<input type="radio" name="q33" value="1">Lungs<br>
+<input type="radio" name="q33" value="0">Heart<br>
+<input type="radio" name="q33" value="0">Kidney<br>
+<input type="radio" name="q33" value="0">Liver</div>
+
+<div class="q">34. Brain controls?<br>
+<input type="radio" name="q34" value="1">Nervous system<br>
+<input type="radio" name="q34" value="0">Digestive<br>
+<input type="radio" name="q34" value="0">Excretory<br>
+<input type="radio" name="q34" value="0">Circulatory</div>
+
+<div class="q">35. Kidney function?<br>
+<input type="radio" name="q35" value="1">Urine formation<br>
+<input type="radio" name="q35" value="0">Digestion<br>
+<input type="radio" name="q35" value="0">Respiration<br>
+<input type="radio" name="q35" value="0">Circulation</div>
+
+<div class="q">36. Blood type universal donor?<br>
+<input type="radio" name="q36" value="1">O-<br>
+<input type="radio" name="q36" value="0">A+<br>
+<input type="radio" name="q36" value="0">B+<br>
+<input type="radio" name="q36" value="0">AB+</div>
+
+<div class="q">37. Vaccine protects against?<br>
+<input type="radio" name="q37" value="1">Disease<br>
+<input type="radio" name="q37" value="0">Injury<br>
+<input type="radio" name="q37" value="0">Fracture<br>
+<input type="radio" name="q37" value="0">Pain</div>
+
+<div class="q">38. Fever temperature?<br>
+<input type="radio" name="q38" value="1">>100°F<br>
+<input type="radio" name="q38" value="0">98°F<br>
+<input type="radio" name="q38" value="0">95°F<br>
+<input type="radio" name="q38" value="0">90°F</div>
+
+<div class="q">39. Oxygen is needed for?<br>
+<input type="radio" name="q39" value="1">Respiration<br>
+<input type="radio" name="q39" value="0">Digestion<br>
+<input type="radio" name="q39" value="0">Excretion<br>
+<input type="radio" name="q39" value="0">Movement</div>
+
+<div class="q">40. Blood carries?<br>
+<input type="radio" name="q40" value="1">Oxygen<br>
+<input type="radio" name="q40" value="0">Food only<br>
+<input type="radio" name="q40" value="0">Waste only<br>
+<input type="radio" name="q40" value="0">Bones</div>
+
+<div class="q">41. Infection means?<br>
+<input type="radio" name="q41" value="1">Entry of germs<br>
+<input type="radio" name="q41" value="0">Injury<br>
+<input type="radio" name="q41" value="0">Pain<br>
+<input type="radio" name="q41" value="0">Swelling</div>
+
+<div class="q">42. Immunity gives?<br>
+<input type="radio" name="q42" value="1">Protection<br>
+<input type="radio" name="q42" value="0">Disease<br>
+<input type="radio" name="q42" value="0">Pain<br>
+<input type="radio" name="q42" value="0">Fever</div>
+
+<div class="q">43. Antibiotics kill?<br>
+<input type="radio" name="q43" value="1">Bacteria<br>
+<input type="radio" name="q43" value="0">Virus<br>
+<input type="radio" name="q43" value="0">Fungus<br>
+<input type="radio" name="q43" value="0">Parasite</div>
+
+<div class="q">44. First aid purpose?<br>
+<input type="radio" name="q44" value="1">Save life<br>
+<input type="radio" name="q44" value="0">Delay treatment<br>
+<input type="radio" name="q44" value="0">Increase pain<br>
+<input type="radio" name="q44" value="0">Ignore injury</div>
+
+<div class="q">45. Oxygen transport in blood?<br>
+<input type="radio" name="q45" value="1">Hemoglobin<br>
+<input type="radio" name="q45" value="0">Platelet<br>
+<input type="radio" name="q45" value="0">WBC<br>
+<input type="radio" name="q45" value="0">Plasma only</div>
+
+<div class="q">46. Blood clotting cells?<br>
+<input type="radio" name="q46" value="1">Platelets<br>
+<input type="radio" name="q46" value="0">RBC<br>
+<input type="radio" name="q46" value="0">WBC<br>
+<input type="radio" name="q46" value="0">Plasma</div>
+
+<div class="q">47. Fever treatment?<br>
+<input type="radio" name="q47" value="1">Paracetamol<br>
+<input type="radio" name="q47" value="0">Antibiotic only<br>
+<input type="radio" name="q47" value="0">Surgery<br>
+<input type="radio" name="q47" value="0">No treatment</div>
+
+<div class="q">48. Vaccine given to newborn?<br>
+<input type="radio" name="q48" value="1">BCG<br>
+<input type="radio" name="q48" value="0">MMR<br>
+<input type="radio" name="q48" value="0">TT<br>
+<input type="radio" name="q48" value="0">Hepatitis C</div>
+
+<div class="q">49. Clean water disease prevention?<br>
+<input type="radio" name="q49" value="1">Yes<br>
+<input type="radio" name="q49" value="0">No<br>
+<input type="radio" name="q49" value="0">Sometimes<br>
+<input type="radio" name="q49" value="0">Never</div>
+
+<div class="q">50. Health means?<br>
+<input type="radio" name="q50" value="1">Physical + mental + social well-being<br>
+<input type="radio" name="q50" value="0">Only absence of disease<br>
+<input type="radio" name="q50" value="0">Only fitness<br>
+<input type="radio" name="q50" value="0">Only strength</div>
 
 </form>
 
