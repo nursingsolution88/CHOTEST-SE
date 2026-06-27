@@ -1,9 +1,31 @@
-<form id="testForm" action="YOUR_GOOGLE_APPS_SCRIPT_URL" method="POST">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
-  
-  <label for="fatherName">Father's Name:</label><br>
-  <input type="text" id="fatherName" name="fatherName" required><br><br>
-  
-  <input type="submit" value="Submit Test">
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f7f6; padding: 20px; }
+        .container { max-width: 400px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>NHM परीक्षा फॉर्म</h2>
+        <form id="testForm">
+            <input type="text" name="name" placeholder="अपना नाम" required>
+            <input type="text" name="fatherName" placeholder="पिता का नाम" required>
+            <button type="submit">टेस्ट शुरू करें</button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('testForm');
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch('YOUR_GOOGLE_APPS_SCRIPT_URL', { method: 'POST', body: new FormData(form) })
+            .then(response => alert("डेटा सबमिट हो गया!"))
+            .catch(error => console.error('Error!', error.message))
+        });
+    </script>
+</body>
+</html>
